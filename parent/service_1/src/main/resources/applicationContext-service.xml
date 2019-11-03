@@ -24,7 +24,7 @@
 
 
     <!-- 组件扫描配置    -->
-    <context:component-scan base-package="cn.itcast"></context:component-scan>
+    <context:component-scan base-package="cn.zhu"></context:component-scan>
 
     <!-- aop面向切面编程,切面就是切入点和通知的组合         -->
     <!--   配置事务管理器         -->
@@ -45,7 +45,7 @@
     </tx:advice>
     <!--   配置切面    -->
     <aop:config>
-        <aop:pointcut id="pointcut" expression="execution(* cn.itcast.service.impl.*.*(..))"></aop:pointcut>
+        <aop:pointcut id="pointcut" expression="execution(* cn.zhu.service.impl.*.*(..))"></aop:pointcut>
         <aop:advisor advice-ref="advice" pointcut-ref="pointcut"></aop:advisor>
     </aop:config>
 

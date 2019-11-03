@@ -1,5 +1,5 @@
-import cn.itcast.domain.Items;
-import cn.itcast.service.ItemsService;
+import cn.zhu.domain.Items;
+import cn.zhu.service.ItemsService;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

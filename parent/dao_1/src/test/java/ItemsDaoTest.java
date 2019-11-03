@@ -1,8 +1,8 @@
-import cn.itcast.dao.ItemsDao;
+import cn.zhu.dao.ItemsDao;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import cn.itcast.domain.Items;
+import cn.zhu.domain.Items;
 public class ItemsDaoTest {
 @Test
 public void testFindItemsById() {
